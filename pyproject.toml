@@ -1,0 +1,18 @@
+[project]
+name = "kg-rag-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "chromadb>=1.5.9",
+    "google-genai>=1.47.0",
+    "openai>=2.44.0",
+    "python-dotenv>=1.2.1",
+    "sentence-transformers>=5.1.2",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter",
+]
